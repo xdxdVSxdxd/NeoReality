@@ -1,0 +1,82 @@
+**Introduction**
+
+NeoReality is a free open source augmented reality browser for iPhone and iPad that uses Wordpress-powered websites as CMS.
+
+The objective of NeoReality is to create a tool for free, autonomous reality augmentation possibilities.
+
+Commonly available AR platforms rely on private services whose providers actually own your access points to this new space of expression which is currently showing the possibility of becoming a new digital public space, layered onto the physical one. 
+
+While we do not mean that we necessarily have to mistrust service providers, we also strongly point out how the possibility of actually owning our data, our possibility for expression, our augmented layers of the world is a key factor in claiming and defending of freedoms of expression, information and communication.
+
+We also think that it is highly desirable and strategic to work on open software platforms so that it is perfectly clear what people do with our information.
+
+Because we are constantly observed by service providers, who use the information captured by our accesses for the most variable purposes: from marketing to government intelligence.
+
+Using open platforms, the ones that publicly share their source code, is the only way of knowing where our data ends up.
+
+And: Augmented Reality is becoming a truly important opportunity. It is becoming a new public space: highly accessible and, most important of all, *EVERYWHERE*. Meaning that we now have the possibility to "write on the world" in ways that are completely autonomous and free.
+
+
+** NeoReality **
+
+NeoReality is an AR Browser. Its features are not so advanced as current commercially available AR browsers. It still misses 3D object import and the interface is really basic.
+
+I (Salvatore Iaconesi, aka xDxD.vs.xDxD) wrote it in about 1 month of work to be used in an artistic action which you all will know about in a bit. I now am benefiting from help coming from a constantly growing list of friends who are all joining the development efforts to add some features to the AR experience which we are all very excited about and that have the power to drastically change many of the things which we do in our daily lives.
+
+But you'll have to wait a bit: we'll disclose everything really soon. :)
+
+
+** Overview **
+
+NeoReality uses Wordpress powered websites as CMS (Content Management Systems) for the AR Browser.
+
+What it means is that you use a Wordpress site to collect your spatially disseminated data which will then be available on the AR browsing experience.
+
+This README file will provide the basic startup details to setup NeoReality. A complete documentation will follow soon and you are all invited to helping out in writing it. 
+
+
+
+** Initial Steps **
+
+NeoReality uses Wordpress.
+
+Download the latest Wordpress version at http://www.wordpress.org
+
+Create your database, use it in the Wordpress installation process and make sure that the Wordpress system is installed correctly before you go on with the NeoReality Installation.
+
+On your correctly functioning Wordpress installation add some plugins (search for them in the Wordpress "add new plugin" interface):
+
+* the Geotag plugin by Boris Pulyer
+* the Category Icons plugin by Brahim Machkouri
+
+The server side of the AR system makes some assumptions on paths and filenames (this will rapidly change and become a bit more automatic):
+
+* your Wordpress will need to be in a directory named "wordpress" that sits where your PHP files are
+* only one of the PHP files (named "getARPoints.php") needs to be placed into the same directory (the "wordpress" directory) as your "wp-config.php" file 
+* for example on my server I have a layout like this: /neoreality/wordpress
+* in the example: all the serverside files will go into the "neoreality" folder, except for the "getARPoints.php" file which goes into the "wordpress" dir together with your Wordpress installation
+
+If any of these path formats are not met, you will need to go through the PHP files in the server side components of NeoReality to adjust things according to your directory layouts.
+
+Take note of the URLs with which you can reach the PHP files you just installed, as you will need to write them in the Objective-C files of the XCode project you will use to build the iPhone/iPod part of the application
+
+
+** the XCode project **
+
+The Directory "NewReality-XCODE" in the git repository contains a complete XCode project. It includes all the files needed to build and deploy the App on both iPhone and iPad.
+
+The iPad version is still not in the repository here on GitHub, as we're making it a bit more readable. It will be here soon.
+
+As you all know to deploy apps on actual iphones and ipads you will need to register to the Apple Developer program and request, download, install and use a plethora of digital certificates. We won't cover any of this process here, and advise you check out the tutorials and info documents found at http://developer.apple.com
+
+Remember the URLs you wrote down at the previous tasks? You will need them now. 
+
+Browse the ".m" files in the project (the Objective C source code) for the string "http://" this is where you will need to replace the URLs. Observe the URLs and which PHP file they request: change the domain/path part of the URL, add "https" in the URL scheme if your server supports it, and leave the PHP filename alone :)
+
+(again: there will be an easier setup phase in a bit)
+
+Setup your SDK inside XCode (and, mainly, select the platform, make sure that the frameworks are correctly linked, set your BUNDLE, Product Name and Versions in the project properties, adjust your Info.plist file if it needs to be adjusted, use the provided icons as reference to build your own).
+
+Build and it should go (where "should", in programming, is a word to be taken really seriously) :)
+
+happy augmented, free, autonomous, fun.
