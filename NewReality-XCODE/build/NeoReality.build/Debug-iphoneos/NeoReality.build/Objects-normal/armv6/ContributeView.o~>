@@ -1,0 +1,4 @@
+/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ContributeView.m:42: warning: incomplete implementation of class 'ContributeView'
+/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ContributeView.m:42: warning: method definition for '-pickerView:numberOfRowsInComponent:' not found
+/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ContributeView.m:42: warning: method definition for '-numberOfComponentsInPickerView:' not found
+/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ContributeView.m:42: warning: class 'ContributeView' does not fully implement the 'UIPickerViewDataSource' protocol

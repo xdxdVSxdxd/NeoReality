@@ -1,0 +1,575 @@
+TNeoReality
+v7
+r0
+t324397316.379631
+cCheck dependencies
+cCpResource build/Debug-iphoneos/NeoReality.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/Info.plist NeoReality-Info.plist
+cCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
+cCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
+cProcessPCH /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch.gch NeoReality_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch.gch NeoReality_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/main.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/VisionViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/ListTableViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AROverlay.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/main.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality normal armv6
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/VisionViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/ListTableViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AROverlay.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality normal armv7
+cCreateUniversalBinary /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality normal "armv6 armv7"
+cGenerateDSYMFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app.dSYM /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality
+cProcessProductPackaging "/Users/salvatoreiaconesi/Library/MobileDevice/Provisioning Profiles/AFE983B2-121E-4C7B-843E-4C93A7776792.mobileprovision" /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision
+cTouch /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent
+cCodeSign /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch
+c000000004DA59E3400000000000000BD
+t1302699572
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m
+c000000004DA59E340000000000000164
+t1302699572
+s356
+i<UIKit/UIKit.h>
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+t1302704516
+s374
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app.dSYM
+t1302704514
+s102
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/Info.plist
+t1302704508
+s1111
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/MainWindow_iPad.nib
+t1302704510
+s982
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/MainWindow_iPhone.nib
+t1302704510
+s984
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality
+t1302704514
+s60560
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/PkgInfo
+t1302704508
+s8
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/ResourceRules.plist
+t1302704508
+s485
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision
+t1302704514
+s7167
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent
+t1302704514
+s434
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AROverlay.o
+t1302704513
+s37116
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPad.o
+t1302704512
+s48332
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPhone.o
+t1302704513
+s59892
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/ListTableViewController.o
+t1302704513
+s41172
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality
+t1302704513
+s27792
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality.LinkFileList
+c000000004DA5B17C0000000000000372
+t1302704508
+s882
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/VisionViewController.o
+t1302704513
+s45872
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/main.o
+t1302704512
+s6488
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AROverlay.o
+t1302704513
+s37096
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPad.o
+t1302704513
+s48284
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPhone.o
+t1302704513
+s59708
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/ListTableViewController.o
+t1302704513
+s41116
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality
+t1302704514
+s27792
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality.LinkFileList
+c000000004DA5B17C0000000000000372
+t1302704508
+s882
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/VisionViewController.o
+t1302704513
+s45756
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/main.o
+t1302704513
+s6472
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.h
+c000000004DA59E34000000000000013E
+t1302699572
+s318
+i<UIKit/UIKit.h>
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m
+c000000004DA59E3400000000000006A4
+t1302699572
+s1700
+i"AppDelegate_iPad.h"
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
+c000000004DA59E3400000000000036DE
+t1302699572
+s14046
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.h
+c000000004DA5AC2200000000000000C7
+t1302703138
+s199
+i<UIKit/UIKit.h>
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m
+c000000004DA5AC220000000000000246
+t1302703138
+s582
+i"AROverlay.h"
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.h
+c000000004DA5ABA900000000000002B5
+t1302703017
+s693
+i<UIKit/UIKit.h>
+i"VisionViewController.h"
+i"ListTableViewController.h"
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m
+c000000004DA5A4570000000000000C2C
+t1302701143
+s3116
+i"AppDelegate_iPhone.h"
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.h
+c000000004DA59F0900000000000000F2
+t1302699785
+s242
+i<UIKit/UIKit.h>
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m
+c000000004DA5A3CC000000000000128E
+t1302701004
+s4750
+i"ListTableViewController.h"
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
+c000000004DA59E34000000000000390D
+t1302699572
+s14605
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.h
+c000000004DA5AC9A00000000000001A3
+t1302703258
+s419
+i<UIKit/UIKit.h>
+i"AROverlay.h"
+
+N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m
+c000000004DA5B17100000000000008C3
+t1302704497
+s2243
+i"VisionViewController.h"
+
+N/Users/salvatoreiaconesi/Library/MobileDevice/Provisioning Profiles/AFE983B2-121E-4C7B-843E-4C93A7776792.mobileprovision
+c000000004D8C3F770000000000001BFF
+t1301036919
+s7167
+
+N/var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch.gch
+t1302704512
+s9983704
+
+N/var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch.gch
+t1302704512
+s10446552
+
+NNeoReality-Info.plist
+c000000004DA59E7B000000000000056D
+t1302699643
+s1389
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324397307#324397308#0(0"0(0#1#0"8619271872#0"0#
+
+CCodeSign /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+s324397314.545009
+e324397316.379415
+r1
+xCodeSign
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/NeoReality.app324397314#324397316#0(0"0(0#0#88"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app8613766016#725"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: salvatore iaconesi (4Z3DHLFF9P)" --resource-rules=/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/ResourceRules.plist --entitlements /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AROverlay.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397313.123762
+e324397313.263177
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AROverlay.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m324397313#324397313#0(0"0(0#0#71"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m8617420064#1955"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AROverlay.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397312.884191
+e324397312.994126
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPad.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m324397312#324397312#0(0"0(0#0#76"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m8617676000#1967"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPad.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397312.529048
+e324397313.088398
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPhone.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m324397312#324397313#0(0"0(0#0#80"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m8617915328#1973"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/ListTableViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397313.088521
+e324397313.266071
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/ListTableViewController.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324397313#324397313#0(0"0(0#0#85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m8614444352#1983"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/ListTableViewController.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/VisionViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397312.994305
+e324397313.123629
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/VisionViewController.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m324397312#324397313#0(0"0(0#0#82"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m8615384960#1977"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/VisionViewController.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/main.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397312.525109
+e324397312.884068
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/main.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m324397312#324397312#0(0"0(0#0#66"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m8613995840#1945"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AROverlay.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397313.766444
+e324397313.908632
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AROverlay.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m324397313#324397313#0(0"0(0#0#71"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m8612670144#1955"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AROverlay.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AROverlay.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397313.511431
+e324397313.634535
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPad.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m324397313#324397313#0(0"0(0#0#76"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m8617368320#1967"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPad.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397313.369733
+e324397313.511306
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPhone.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m324397313#324397313#0(0"0(0#0#80"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m8617659808#1973"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/AppDelegate_iPhone.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/ListTableViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397313.743334
+e324397313.851757
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/ListTableViewController.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324397313#324397313#0(0"0(0#0#85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m8615003392#1983"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/ListTableViewController.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/VisionViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397313.634655
+e324397313.743210
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/VisionViewController.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m324397313#324397313#0(0"0(0#0#82"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m8615425152#1977"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/VisionViewController.o0#
+
+CCompileC build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/main.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397313.263315
+e324397313.369612
+r1
+xCompileC
+xbuild/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/main.o
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m324397313#324397313#0(0"0(0#0#66"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m8614816288#1945"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
+s324397308.255048
+e324397310.846765
+r1
+xCompileXIB
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib324397308#324397310#0(0"0(0#0#77"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib8595136352#602"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/MainWindow_iPad.nib /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
+s324397308.253958
+e324397310.839720
+r1
+xCompileXIB
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib324397308#324397310#0(0"0(0#0#81"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib8614180960#608"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/MainWindow_iPhone.nib /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/NeoReality.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s324397308.111964
+e324397308.253784
+r1
+xCpResource
+xbuild/Debug-iphoneos/NeoReality.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist324397308#324397308#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist5423551314508738560#525"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app0#
+
+CCreateUniversalBinary /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality normal "armv6 armv7"
+s324397314.093074
+e324397314.148134
+r1
+xCreateUniversalBinary
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/NeoReality.app/NeoReality normal "armv6 armv7"324397314#324397314#0(0"0(0#0#64"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/armv6 armv78617656224#598"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality -output /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality0#
+
+CGenerateDSYMFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app.dSYM /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality
+s324397314.148253
+e324397314.265892
+r1
+xGenerateDSYMFile
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app.dSYM
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/NeoReality.app.dSYM build/Debug-iphoneos/NeoReality.app/NeoReality324397314#324397314#0(0"0(0#0#99"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality8615715520#413"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/NeoReality -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app.dSYM0#
+
+CLd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality normal armv6
+s324397313.266179
+e324397313.766312
+r1
+xLd
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality
+xnormal
+xarmv6
+lSLF07#2@144"Link /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality324397313#324397313#0(0"0(0#0#0"8612694912#947"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -filelist /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv6/NeoReality0#
+
+CLd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality normal armv7
+s324397313.908740
+e324397314.092868
+r1
+xLd
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality
+xnormal
+xarmv7
+lSLF07#2@144"Link /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality324397313#324397314#0(0"0(0#0#0"8615973856#947"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -filelist /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/Objects-normal/armv7/NeoReality0#
+
+CProcessInfoPlistFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/Info.plist NeoReality-Info.plist
+s324397308.115371
+e324397308.181510
+r1
+xProcessInfoPlistFile
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/Info.plist
+xNeoReality-Info.plist
+lSLF07#2@29"Process NeoReality-Info.plist324397308#324397308#0(0"0(0#0#74"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality-Info.plist8594318048#630"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NeoReality-Info.plist -genpkginfo /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/ResourceRules.plist -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/Info.plist0#
+
+CProcessPCH /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch.gch NeoReality_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324397310.846921
+e324397312.437497
+r1
+xProcessPCH
+x/var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch.gch
+xNeoReality_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile NeoReality_Prefix.pch324397310#324397312#0(0"0(0#0#74"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch8613463392#1819"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv6 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch -o /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dberjocuqrtimebqpdnrdifirjbp/NeoReality_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch.gch NeoReality_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324397310.848349
+e324397312.524900
+r1
+xProcessPCH
+x/var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch.gch
+xNeoReality_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile NeoReality_Prefix.pch324397310#324397312#0(0"0(0#0#74"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch8618594144#1819"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources/armv7 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/DerivedSources -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch -o /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-hebjogrelewhzsgmckvkcfcfmuyq/NeoReality_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/salvatoreiaconesi/Library/MobileDevice/Provisioning Profiles/AFE983B2-121E-4C7B-843E-4C93A7776792.mobileprovision" /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision
+s324397314.266038
+e324397314.319482
+r1
+xProcessProductPackaging
+x/Users/salvatoreiaconesi/Library/MobileDevice/Provisioning Profiles/AFE983B2-121E-4C7B-843E-4C93A7776792.mobileprovision
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision
+lSLF07#2@207"ProcessProductPackaging "/Users/salvatoreiaconesi/Library/MobileDevice/Provisioning Profiles/AFE983B2-121E-4C7B-843E-4C93A7776792.mobileprovision" build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision324397314#324397314#0(0"0(0#0#113"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision8618464704#466"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/salvatoreiaconesi/Library/MobileDevice/Provisioning Profiles/AFE983B2-121E-4C7B-843E-4C93A7776792.mobileprovision" -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent
+s324397314.518377
+e324397314.544903
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent324397314#324397314#0(0"0(0#0#124"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent8614702016#469"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphoneos/NeoReality.build/NeoReality.xcent0#
+
+CTouch /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+s324397314.319576
+e324397314.518245
+r1
+xTouch
+x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app
+lSLF07#2@94"Touch /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app324397314#324397314#0(0"0(0#0#0"8617774144#295"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphoneos/NeoReality.app0#
+
