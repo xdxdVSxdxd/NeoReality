@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+.neoreality_ar_image_edit_panel .description , .neoreality_ar_sound_edit_panel .description {
+  display: none;
+}
+
+.neoreality_admin_description{
+	width: 100%;
+}
+
+div#neoreality_admin_edit_general_panel{
+width: 100%;
+padding: 0px;
+margin: 0px;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.neoreality_admin_mappanel, .neoreality_admin_manual_panels{
+float: left;
+width:50%;
+padding: 0px;
+margin: 0px;
+}
+
+div#neoreality_map_edit{
+width: 90%;
+height: 300px;
+padding: 0px;
+margin: auto;
+margin-bottom: 6px;
+}
+
+div#neoreality_map_parameters{
+width: 90%;
+padding: 0px;
+margin: auto;
+margin-bottom: 6px;
+}
+
+#sound{
+	
+	padding: 8px;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+
+.neoreality_ar_image_edit_panel label , .neoreality_ar_sound_edit_panel label {
+  display: block;
+  font-weight: bold;
+  margin: 6px;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+.neoreality_ar_image_edit_panel label span , .neoreality_ar_sound_edit_panel label span {
+  display: inline;
+  font-weight: normal;
+}
+.neoreality_ar_image_edit_panel span , .neoreality_ar_sound_edit_panel span {
+  color: #999;
+  display: block;
+}
+
+.neoreality_ar_image_edit_panel textarea,
+.neoreality_ar_image_edit_panel input[type='text'],
+.neoreality_ar_sound_edit_panel textarea,
+.neoreality_ar_sound_edit_panel input[type='text']
+ {
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.neoreality_ar_image_edit_panel h4 , .neoreality_ar_sound_edit_panel h4 {
+  color: #999;
+  font-size: 1em;
+  margin: 15px 6px;
+  text-transform:uppercase;
+}

@@ -1,306 +1,0 @@
-TNeoReality
-v7
-r0
-t324393568.632669
-cCheck dependencies
-cProcessInfoPlistFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/Info.plist NeoReality-Info.plist
-cCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
-cCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
-cProcessPCH /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch.gch NeoReality_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/main.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPad.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/VisionViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/ListTableViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch
-c000000004DA59E3400000000000000BD
-t1302699572
-s189
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m
-c000000004DA59E340000000000000164
-t1302699572
-s356
-i<UIKit/UIKit.h>
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app
-t2
-s0
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app.dSYM
-t2
-s0
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/Info.plist
-t1302700758
-s921
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/MainWindow_iPad.nib
-t1302700764
-s982
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/MainWindow_iPhone.nib
-t1302700764
-s984
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/NeoReality
-t2
-s0
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/PkgInfo
-t1302700758
-s8
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPad.o
-t1302700768
-s48436
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPhone.o
-t2
-s0
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/ListTableViewController.o
-t2
-s0
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/NeoReality.LinkFileList
-c000000004DA5A2D60000000000000303
-t1302700758
-s771
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/VisionViewController.o
-t1302700768
-s37704
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/main.o
-t1302700768
-s6344
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.h
-c000000004DA59E34000000000000013E
-t1302699572
-s318
-i<UIKit/UIKit.h>
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m
-c000000004DA59E3400000000000006A4
-t1302699572
-s1700
-i"AppDelegate_iPad.h"
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
-c000000004DA59E3400000000000036DE
-t1302699572
-s14046
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.h
-c000000004DA5A1CF000000000000029A
-t1302700495
-s666
-i<UIKit/UIKit.h>
-i"VisionViewController.h"
-i"ListTableViewController.h"
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m
-c000000004DA5A2D40000000000000C16
-t1302700756
-s3094
-i"AppDelegate_iPhone.h"
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.h
-c000000004DA59F0900000000000000F2
-t1302699785
-s242
-i<UIKit/UIKit.h>
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m
-c000000004DA59F0900000000000012BF
-t1302699785
-s4799
-i"ListTableViewController.h"
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
-c000000004DA59E34000000000000390D
-t1302699572
-s14605
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.h
-c000000004DA59EEF00000000000000E7
-t1302699759
-s231
-i<UIKit/UIKit.h>
-
-N/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m
-c000000004DA59EEF0000000000000625
-t1302699759
-s1573
-i"VisionViewController.h"
-
-N/var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch.gch
-t1302700767
-s15453392
-
-NNeoReality-Info.plist
-c000000004DA59E7B000000000000056D
-t1302699643
-s1389
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies324393558#324393558#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPad.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324393568.452012
-e324393568.569009
-r1
-xCompileC
-xbuild/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPad.o
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m324393568#324393568#0(0"0(0#0#76"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m8613751104#2157"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources/i386 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/AppDelegate_iPad.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPad.o0#
-
-CCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324393568.193990
-e324393568.451895
-r0
-xCompileC
-xbuild/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPhone.o
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone application:didFinishLaunchingWithOptions:]':
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m:29: error: request for member 'list' in something not a structure or union
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m:36: warning: class 'AppDelegate_iPhone' does not implement the 'UITabBarControllerDelegate' protocol
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m:38: error: request for member 'view' in something not a structure or union
-lSLF07#2@88"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m324393568#324393568#0(656"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone application:didFinishLaunchingWithOptions:]':/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m:29: error: request for member 'list' in something not a structure or union/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m:36: warning: class 'AppDelegate_iPhone' does not implement the 'UITabBarControllerDelegate' protocol/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m:38: error: request for member 'view' in something not a structure or union3(4@63"Request for member 'list' in something not a structure or union324393568#162#156#0(6@80"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m324393556#29#0#29#0#0"0(22@87"Class 'AppDelegate_iPhone' does not implement the 'UITabBarControllerDelegate' protocol324393568#318#182#0(6@80"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m324393556#36#0#36#0#45"class '*' does not implement the '*' protocol0(4@63"Request for member 'view' in something not a structure or union324393568#500#156#0(6@80"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m324393556#38#0#38#0#0"0(0#0#80"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m8613816192#2163"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources/i386 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/AppDelegate_iPhone.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/AppDelegate_iPhone.o1#
-
-CCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/ListTableViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324393568.569149
-e324393568.632566
-r0
-xCompileC
-xbuild/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/ListTableViewController.o
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m: In function '-[ListTableViewController numberOfSectionsInTableView:]':
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:76: error: expected expression before '<' token
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:77: warning: control reaches end of non-void function
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m: In function '-[ListTableViewController tableView:numberOfRowsInSection:]':
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:82: error: expected expression before '<' token
-o/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:83: warning: control reaches end of non-void function
-lSLF07#2@93"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324393568#324393568#0(868"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m: In function '-[ListTableViewController numberOfSectionsInTableView:]':/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:76: error: expected expression before '<' token/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:77: warning: control reaches end of non-void function/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m: In function '-[ListTableViewController tableView:numberOfRowsInSection:]':/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:82: error: expected expression before '<' token/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m:83: warning: control reaches end of non-void function4(4@36"Expected expression before '<' token324393568#158#134#0(6@85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324392585#76#0#76#0#19"expected * before *0(22@40"Control reaches end of non-void function324393568#292#140#0(6@85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324392585#77#0#77#0#40"control reaches end of non-void function0(4@36"Expected expression before '<' token324393568#594#134#0(6@85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324392585#82#0#82#0#19"expected * before *0(22@40"Control reaches end of non-void function324393568#728#140#0(6@85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m324392585#83#0#83#0#40"control reaches end of non-void function0(0#0#85"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m8613892800#2173"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources/i386 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/ListTableViewController.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/ListTableViewController.o1#
-
-CCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/VisionViewController.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324393568.470008
-e324393568.572675
-r1
-xCompileC
-xbuild/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/VisionViewController.o
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m324393568#324393568#0(0"0(0#0#82"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m8614753280#2167"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources/i386 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/VisionViewController.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/VisionViewController.o0#
-
-CCompileC build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/main.o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324393568.151879
-e324393568.469881
-r1
-xCompileC
-xbuild/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/main.o
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m324393568#324393568#0(0"0(0#0#66"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m8614400096#2135"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources/i386 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources -include /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/Shared/main.m -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
-s324393558.659001
-e324393564.385115
-r1
-xCompileXIB
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib
-lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib324393558#324393564#0(0"0(0#0#77"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib8613865120#630"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/MainWindow_iPad.nib /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
-s324393558.639417
-e324393564.383933
-r1
-xCompileXIB
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib
-lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib324393558#324393564#0(0"0(0#0#81"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib8613999360#636"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/MainWindow_iPhone.nib /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app.dSYM /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/NeoReality
-r0
-
-CLd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/NeoReality normal i386
-r0
-
-CProcessInfoPlistFile /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/Info.plist NeoReality-Info.plist
-s324393558.462371
-e324393558.639279
-r1
-xProcessInfoPlistFile
-x/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/Info.plist
-xNeoReality-Info.plist
-lSLF07#2@29"Process NeoReality-Info.plist324393558#324393558#0(0"0(0#0#74"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality-Info.plist27303506538004592#530"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NeoReality-Info.plist -genpkginfo /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app/Info.plist0#
-
-CProcessPCH /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch.gch NeoReality_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s324393564.385263
-e324393568.151653
-r1
-xProcessPCH
-x/var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch.gch
-xNeoReality_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile NeoReality_Prefix.pch324393564#324393568#0(0"0(0#0#74"/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch8612954848#2003"    cd /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-generated-files.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-own-target-headers.hmap -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-all-target-headers.hmap -iquote /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/NeoReality-project-headers.hmap -F/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/include -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources/i386 -I/Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/NeoReality.build/Debug-iphonesimulator/NeoReality.build/DerivedSources -c /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/NeoReality_Prefix.pch -o /var/folders/2A/2Aug5xagH-eDYmW-NGo2+E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NeoReality_Prefix-dkukixherplyneccelzadlwiypjp/NeoReality_Prefix.pch.gch0#
-
-CTouch /Users/salvatoreiaconesi/Desktop/ARtBasel/NeoReality/build/Debug-iphonesimulator/NeoReality.app
-r0
-
