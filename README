@@ -44,22 +44,17 @@ Download the latest Wordpress version at http://www.wordpress.org
 
 Create your database, use it in the Wordpress installation process and make sure that the Wordpress system is installed correctly before you go on with the NeoReality Installation.
 
-On your correctly functioning Wordpress installation add some plugins (search for them in the Wordpress "add new plugin" interface):
+Install the "neoreality" directory as you would normally install a Wordpress plugin (copy it to the "wp-content/plugins" directory of your Wordpress installation).
 
-* the Geotag plugin by Boris Pulyer
-* the Category Icons plugin by Brahim Machkouri
+Go to your Wordpress Dashboard, to the Plugins section, and activate the NeoReality plugin.
 
-The server side of the AR system makes some assumptions on paths and filenames (this will rapidly change and become a bit more automatic):
+That's it!
 
-* your Wordpress will need to be in a directory named "wordpress" that sits where your PHP files are
-* only one of the PHP files (named "getARPoints.php") needs to be placed into the same directory (the "wordpress" directory) as your "wp-config.php" file 
-* for example on my server I have a layout like this: /neoreality/wordpress
-* in the example: all the serverside files will go into the "neoreality" folder, except for the "getARPoints.php" file which goes into the "wordpress" dir together with your Wordpress installation
+You now will have three additional sections on your command bar on the left of the Wordpress Dashboard, marked as AR Content.
 
-If any of these path formats are not met, you will need to go through the PHP files in the server side components of NeoReality to adjust things according to your directory layouts.
+They allow you to add Images, Sounds and Videos to your AR environment.
 
-Take note of the URLs with which you can reach the PHP files you just installed, as you will need to write them in the Objective-C files of the XCode project you will use to build the iPhone/iPod part of the application
-
+You can see the AR content by using the iPhone application included in the NewReality-XCODE sub-directory of the plugin, containing a working XCode project.
 
 ** the XCode project **
 
@@ -68,8 +63,6 @@ The Directory "NewReality-XCODE" in the git repository contains a complete XCode
 The iPad version is still not in the repository here on GitHub, as we're making it a bit more readable. It will be here soon.
 
 As you all know to deploy apps on actual iphones and ipads you will need to register to the Apple Developer program and request, download, install and use a plethora of digital certificates. We won't cover any of this process here, and advise you check out the tutorials and info documents found at http://developer.apple.com
-
-Remember the URLs you wrote down at the previous tasks? You will need them now. 
 
 Browse the ".m" files in the project (the Objective C source code) for the string "http://" this is where you will need to replace the URLs. Observe the URLs and which PHP file they request: change the domain/path part of the URL, add "https" in the URL scheme if your server supports it, and leave the PHP filename alone :)
 
