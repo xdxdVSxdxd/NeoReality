@@ -377,6 +377,8 @@ function neoreality_arsound_updated_messages( $messages ) {
 function neoreality_custom_init() 
 {
 	
+
+  wp_enqueue_style( "neorealitystyle", NEOREALITY_FOLDER . "neoreality.css" , array(), false, "all" );
 	
 	// **********
 	//ARIMAGE
@@ -564,4 +566,78 @@ function neoreality_add_help_text($contextual_help, $screen_id, $screen) {
   }
   return $contextual_help;
 }
+
+
+
+
+
+// [neorealitymap]
+function neorealitymap_func( $atts ) {
+
+  global $wpdb;
+
+  $o = "";
+
+  $o = $o .
+    '<div id="neoRealityMap"></div>' .
+    '<script type="text/javascript"' .
+    '  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoQFDqTY52IIrAVtLvTZr2CMXZEm0CEH4&sensor=false">' .
+    '</script>' .
+    '<script type="text/javascript">' .
+    '  function initialize() {' .
+    '    var mapOptions = {' .
+    '      mapTypeId: google.maps.MapTypeId.TERRAIN, ' .
+    '      center: new google.maps.LatLng(41.5943332, 14.2308276),' .
+    '      zoom: 10' .
+    '    };' .
+    '    var map = new google.maps.Map(document.getElementById("neoRealityMap"),' .
+    '        mapOptions);';
+
+
+  
+  $q = "(SELECT posts.ID as id, posts.post_type as type, p1.meta_value as lat, p2.meta_value as lon, p3.meta_value as height, p4.meta_value as imageurl, posts.post_title as title, p4.meta_value as content FROM " . $wpdb->posts . " posts, " . $wpdb->postmeta . " p1, " . $wpdb->postmeta . " p2, " . $wpdb->postmeta . " p3, " . $wpdb->postmeta . " p4 WHERE posts.post_type='arimage' AND posts.ID=p1.post_id AND p1.post_id=p2.post_id AND p1.post_id=p3.post_id AND p1.post_id=p4.post_id AND p1.meta_key='neoreality_arimage_lat' AND p2.meta_key='neoreality_arimage_lon' AND p3.meta_key='neoreality_arimage_height' AND p4.meta_key='neoreality_arimage_img_url' AND p4.meta_value<>''  ORDER BY posts.post_date DESC LIMIT 0,100)   UNION     (SELECT posts.ID as id, posts.post_type as type, p1.meta_value as lat, p2.meta_value as lon, p3.meta_value as height, p4.meta_value as imageurl, posts.post_title as title, p4.meta_value as content FROM " . $wpdb->posts . " posts, " . $wpdb->postmeta . " p1, " . $wpdb->postmeta . " p2, " . $wpdb->postmeta . " p3, " . $wpdb->postmeta . " p4 WHERE posts.post_type='arsound' AND posts.ID=p1.post_id AND p1.post_id=p2.post_id AND p1.post_id=p3.post_id AND p1.post_id=p4.post_id AND p1.meta_key='neoreality_arsound_lat' AND p2.meta_key='neoreality_arsound_lon' AND p3.meta_key='neoreality_arsound_height' AND p4.meta_key='neoreality_arsound_sound_url' AND p4.meta_value<>''  ORDER BY posts.post_date DESC LIMIT 0,100) UNION         (SELECT posts.ID as id, posts.post_type as type, p1.meta_value as lat, p2.meta_value as lon, p3.meta_value as height, p4.meta_value as imageurl, posts.post_title as title, p4.meta_value as content FROM " . $wpdb->posts . " posts, " . $wpdb->postmeta . " p1, " . $wpdb->postmeta . " p2, " . $wpdb->postmeta . " p3, " . $wpdb->postmeta . " p4 WHERE posts.post_type='arvideo' AND posts.ID=p1.post_id AND p1.post_id=p2.post_id AND p1.post_id=p3.post_id AND p1.post_id=p4.post_id AND p1.meta_key='neoreality_arvideo_lat' AND p2.meta_key='neoreality_arvideo_lon' AND p3.meta_key='neoreality_arvideo_height' AND p4.meta_key='neoreality_arvideo_img_url' AND p4.meta_value<>'' ORDER BY posts.post_date DESC LIMIT 0,100)";
+
+  //echo($q . "<br /><br />");
+
+  $ru = $wpdb->get_results($q);
+  
+  if($ru){
+  
+    for($i=0; $i<count($ru); $i++){
+    
+      
+      $e = $ru[$i];
+
+      $o = $o . 'var mll' . $i .  ' = new google.maps.LatLng('  . $e->lat .  ','  . $e->lon .  ');';
+      $o = $o . 'var mm' . $i .  ' = new google.maps.Marker({';
+      $o = $o . '    position: mll' . $i .  ',';
+      $o = $o . '    map: map,';
+      $o = $o . '    title:"'  . $e->title .  '",';
+
+      $icona = NEOREALITY_FOLDER . "img/icon-image.png";
+      if($e->type=='arsound'){
+        $icona = NEOREALITY_FOLDER . "img/icon-sound.png";
+      } else if($e->type=='arvideo'){
+        $icona = NEOREALITY_FOLDER . "img/icon-video.png";
+      }
+      $o = $o . '    icon:"'  . $icona .  '"';
+      $o = $o . '});';
+
+    }
+
+  }
+
+
+
+  $o = $o . '  }' .
+    '  initialize();' .
+    '</script>';
+    
+
+
+  return $o;
+}
+add_shortcode( 'neorealitymap', 'neorealitymap_func' );
+
+
 ?>
