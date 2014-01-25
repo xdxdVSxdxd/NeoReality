@@ -623,12 +623,12 @@ function neorealitymap_func( $atts ) {
       $o = $o . '    icon:"'  . $icona .  '"';
       $o = $o . '});';
 
-      $content = "<h2>" . $e->title . "</h2><p>"  . $e->description . "</p><p>"  . $e->content . "</p>";
+      $content = "<h2>" . str_replace("'", "\'", $e->title) . "</h2><p>"  .  str_replace(array("\r\n", "\n", "\r"), "<br />",    str_replace("'", "\'", $e->description)  ) . "</p><p>"  . $e->content . "</p>";
 
       if($e->type=='arsound'){
-        $content = "<h2>" . $e->title . "</h2><p>"  . $e->description . "</p><p><audio controls=\"controls\"><source src=\"" . $e->content . "\"  />Your browser does not support the audio element.</audio></p>";
+        $content = "<h2>" . str_replace("'", "\'", $e->title) . "</h2><p>"  . str_replace(array("\r\n", "\n", "\r"), "<br />",    str_replace("'", "\'", $e->description)  )  . "</p><p><audio controls=\"controls\"><source src=\"" . $e->content . "\"  />Your browser does not support the audio element.</audio></p>";
       } else if($e->type=='arimage'){
-        $content = "<h2>" . $e->title . "</h2><p>"  . $e->description . "</p><p><img src=\""  . $e->content . "\" border=\"0\" width=\"300\" height=\"auto\" /></p>";
+        $content = "<h2>" . str_replace("'", "\'", $e->title) . "</h2><p>"  . str_replace(array("\r\n", "\n", "\r"), "<br />",    str_replace("'", "\'", $e->description)  )  . "</p><p><img src=\""  . $e->content . "\" border=\"0\" width=\"300\" height=\"auto\" /></p>";
       }
 
       $o = $o . "var iw" . $i . " = new google.maps.InfoWindow({content: '"  . $content . "'});" .
